@@ -1,8 +1,19 @@
-streamlit==1.40.0
-pandas==2.2.0
-numpy==1.26.0
-scipy==1.13.0
-plotly==5.24.0
-biopython==1.84
-scikit-learn==1.5.0
-pod5==0.3.10
+# === Dépendances de base ===
+streamlit>=1.40.0
+pandas>=2.2.0
+numpy>=1.26.0,<2.0
+scipy>=1.13.0
+plotly>=5.24.0
+biopython>=1.84
+scikit-learn>=1.5.0
+joblib>=1.3.0
+matplotlib>=3.7.0
+
+# === Nanopore (optionnel — peut nécessiter compilation) ===
+pod5>=0.3.10
+ont-fast5-api>=4.1.0
+
+# === ML avancé (optionnel) ===
+xgboost>=2.0.0
+lightgbm>=4.0.0
+# shap>=0.44.0
